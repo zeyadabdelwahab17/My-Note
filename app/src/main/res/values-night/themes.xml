@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base dark theme -->
+    <style name="Base.Theme.MyNotesApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Define dark mode primary and secondary colors -->
+        <item name="colorPrimary">#BC812A</item> <!-- You can customize this for dark mode -->
+        <item name="colorPrimaryVariant">#FFCA28</item>
+        <item name="colorOnPrimary">@color/white</item> <!-- Ensure this is white or a light color in dark mode -->
+
+        <item name="colorSecondary">#FF4081</item>
+        <item name="colorSecondaryVariant">#F50057</item>
+        <item name="colorOnSecondary">@color/black</item> <!-- Make sure this stands out against your secondary color -->
+
+        <!-- Customize toolbar, status bar, etc. -->
+        <item name="android:statusBarColor">#BC812A</item>
+    </style>
+</resources>
